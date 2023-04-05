@@ -4,8 +4,8 @@ const {
 	JsonDatabase
 } = require("wio.db");
 const db = new JsonDatabase("db");
-var kanal = "channelid"; // set your channel id
-var sahip = "ownerid"; // set your id
+var kanal = "channelid"; // Type channel id
+var sahip = "ownerid"; // Type user id
 
 client.on("ready",()=>{
 	console.log("Jeff OwO Bot Started!");
@@ -80,4 +80,4 @@ client.on("message",message=>{
 });
 
 
-client.login("token"); // user token
+client.login("token"); // Write User Token
